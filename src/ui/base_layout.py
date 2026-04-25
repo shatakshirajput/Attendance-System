@@ -14,7 +14,6 @@ def style_background_home():
            }
         </style>  
         """,unsafe_allow_html=True)
-    
 
 def style_background_dashboard():
     st.markdown("""
