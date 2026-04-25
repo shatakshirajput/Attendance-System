@@ -56,13 +56,18 @@ def style_base_layout():
             color: #6B7280 !important;    
         }
 
-        button{
+        div.stButton > button{
             border-radius: 1.5rem !important;
             background-color: #5B6EFF !important;
-            color: white !important;
+            color: #fff !important;
             padding: 10px 20px !important;
             border: none !important;
             transition: transform 0.25s ease-in-out !important;
+        }
+                
+        div.stButton > button p {
+            color: white !important;
+            white-space: nowrap !important;
         }
 
         button[kind="secondary"]{
