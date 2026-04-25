@@ -1,0 +1,9 @@
+.env
+.vscode
+
+*.pyc
+
+venv/
+
+.streamlit/
+__pycache__/
